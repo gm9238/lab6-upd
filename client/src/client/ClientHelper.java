@@ -17,6 +17,8 @@ public class ClientHelper {
     private int connectionAttempt;
 
     private SocketChannel socketChannel;
+    private ByteArrayOutputStream byteOutputStream;
+    private ByteArrayInputStream byteInputStream;
     private ObjectOutputStream streamWriter;
     private ObjectInputStream streamReader;
 
